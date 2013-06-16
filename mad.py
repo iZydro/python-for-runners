@@ -1,7 +1,6 @@
 #!python
 
 from urllib2 import urlopen
-from xml.dom import minidom
 from BeautifulSoup import BeautifulSoup
 
 import codecs
