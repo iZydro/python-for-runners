@@ -72,8 +72,8 @@ for madrid in mad:
 		runner_bcn = barcelona[0]
 		if runner_mad == runner_bcn:
 			result1 = str(cnt_tot + 1) + ": " + runner_bcn;
-			result2 = race1name + ": " + barcelona[1]
-			result3 = race2name + ": " + madrid[1]
+			result2 = race1name + "=>" + barcelona[1]
+			result3 = race2name + "=>" + madrid[1]
 
 			time_mad = datetime.strptime(madrid[1], "%H:%M:%S")
 			time_bcn = datetime.strptime(barcelona[1], "%H:%M:%S")
@@ -90,7 +90,7 @@ for madrid in mad:
 				mad_faster = mad_faster + 1
 				#total_diff -= (time_bcn - time_mad)
 
-			print result1 + (" " * (60 - len(result1))) + result2 + (" " * (16 - len(result2))) + result3 + "  " + diff
+			print result1 + (" " * (60 - len(result1))) + result2 + (" " * (18 - len(result2))) + result3 + "  " + diff
 
 			cnt_tot = cnt_tot + 1
 
