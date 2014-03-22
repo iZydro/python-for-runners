@@ -30,7 +30,7 @@ for number in range (1, 10000):
 						for tde in td:
 							for tdea in tde:
 								result = result + tdea
-					if tdc == 6:
+					if tdc == 7:
 						for tde in td:
 							result = result + " | " + tde
 					tdc = tdc + 1
