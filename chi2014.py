@@ -9,7 +9,10 @@ import sys
 
 #sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
 
-for number in range (1, 99999):
+for number in range (54966, 99999):
+
+    sys.stderr.write(str(number) + "\n")
+    sys.stderr.flush()
 
     result = str(number) + " | "
 
